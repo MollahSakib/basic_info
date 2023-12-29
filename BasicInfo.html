@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="End">
+        <marquee direction="right"
+            behavior="alternate" style="border:BLACK 2px SOLID">     
+            Personal Information Form
+        </marquee>
+       
+    <a href="#Start" class="fa fa-angle-double-down" style="font-size:36px"></a>
+  <form >
+    <fieldset>
+    <label >Name:</label>
+    <input type="text" required autofocus><br><br>
+
+    <label>Father's Name:</label>
+    <input type="text" required placeholder="Write your fathers name"><br><br>
+
+    <label>Mother's Name:</label>
+    <input type="text" required><br><br>
+
+
+    <label>Gender:</label>
+   
+    <input type="radio" name="Gender" required> Male
+    <input type="radio" name="Gender" required> Female
+    <input type="radio" name="Gender"> Others
+
+  
+    <br><br>
+
+    <label>Qualification:</label>
+    <input type="checkbox" required> B.Sc
+    <input type="checkbox" required> HSC
+    <input type="checkbox" required> SSC <br><br>
+
+    <label>Date of Birth:</label>
+    <input type="date" required><br><br>
+
+    <label>Phone Number:</label>
+    <input type="number" required><br><br>
+
+    <label>Email:</label>
+    <input type="email" required><br><br>
+
+    <label>Address:</label>
+    <textarea type="text" required></textarea><br><br>
+
+    <label>Country:</label>
+    <select required>
+        <option value="male">Bangladesh</option>
+        <option value="female">India</option>
+        <option value="other">Nepal</option>
+        <option value="other">Pakistan</option>
+    </select><br><br>
+
+    <label for="pass">Password</label>
+    <input type="password"><br><br>
+
+    <label>Upload Your Image</label>
+    <input type="file"><br><br>
+
+    <label>Name:</label>
+    <input type="text" required autofocus><br><br>
+
+    <label>Father's Name:</label>
+    <input type="text" required placeholder="Write your fathers name"><br><br>
+
+    <label>Mother's Name:</label>
+    <input type="text" required><br><br>
+
+    <label>Name:</label>
+    <input type="text" required autofocus><br><br>
+
+    <label>Father's Name:</label>
+    <input type="text" required placeholder="Write your fathers name"><br><br>
+
+    <label id="Start">Mother's Name:</label>
+    <input type="text" required><br><br>
+    
+    <button type="button" onclick="document.getElementById('display').innerHTML = Date()"> Date and Time</button>
+    <p id="display"></p>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    </fieldset>
+  </form>
+  <a href="#End" class="fa fa-angle-double-up" style="font-size:36px"></a>
+</body>
+</html>
